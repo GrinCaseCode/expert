@@ -391,8 +391,14 @@
     .billbord {
         padding-bottom: 150px;
         min-height: initial;
-        padding-top: 100px;
+        padding-top: 120px;
         border-radius: 0 0 40px 40px;
+    }
+    .billbord .title-big {
+        margin-bottom: 34px;
+    }
+    .descr-billbord {
+        margin-bottom: 43px;
     }
     .services {
         padding-top: 50px;
@@ -575,10 +581,10 @@
         top: 140px;
     }
     .slider-news .slick-prev {
-        left: -8px;
+        left: -12px;
     }
     .slider-news .slick-next {
-        right: -8px;
+        right: -12px;
     }
     .footer {
         padding-top: 45px;
