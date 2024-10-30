@@ -589,6 +589,9 @@
     .news .title-section {
         max-width: 327px;
     }
+    .news .head-section {
+        margin-bottom: 29px;
+    }
     .footer {
         padding-top: 45px;
         font-size: 13px;
