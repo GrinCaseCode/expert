@@ -581,10 +581,13 @@
         top: 140px;
     }
     .slider-news .slick-prev {
-        left: -12px;
+        left: -8px;
     }
     .slider-news .slick-next {
-        right: -12px;
+        right: -8px;
+    }
+    .news .title-section {
+        max-width: 327px;
     }
     .footer {
         padding-top: 45px;
