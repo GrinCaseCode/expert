@@ -581,10 +581,10 @@
         top: 140px;
     }
     .slider-news .slick-prev {
-        left: -8px;
+        left: -6px;
     }
     .slider-news .slick-next {
-        right: -8px;
+        right: -6px;
     }
     .news .title-section {
         max-width: 327px;
