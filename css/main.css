@@ -1406,6 +1406,9 @@ form {
 .wrapper_page .header .btn-main:hover {
 	background: rgba(65, 99, 135, 0.3);
 }
+.wrapper_page .header.fixed {
+	box-shadow:  0 0 10px #ccc;
+}
 .wrapper_page .phone-mobile,
 .wrapper_page .sandwich {
 	background: rgba(65, 99, 135, 0.1);
