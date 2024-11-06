@@ -1094,6 +1094,7 @@ form {
 }
 .billbord .breadcrumbs {
 	margin-bottom: 86px;
+	padding-bottom: 0;
 	color: #fff;
 }
 .billbord .breadcrumbs a,
