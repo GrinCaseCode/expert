@@ -1407,7 +1407,7 @@ form {
 	background: rgba(65, 99, 135, 0.3);
 }
 .wrapper_page .header.fixed {
-	box-shadow:  0 0 10px #ccc;
+	box-shadow:  0 0 10px #b1c3d6;
 }
 .wrapper_page .phone-mobile,
 .wrapper_page .sandwich {
@@ -1437,6 +1437,7 @@ form {
 }
 .wrapper_page .menu ul {
 	background: #fff;
+	box-shadow: 0 5px 5px #b1c3d6;
 }
 .section-content {
 	padding: 120px 99px;
