@@ -1026,6 +1026,9 @@
     .text-page .title-small br {
         display: none;
     }
+    .wrapper_page .header.active {
+        background: #fff;
+    }
 }
 
 /* Small Devices, Tablets */
