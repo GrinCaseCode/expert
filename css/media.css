@@ -335,6 +335,9 @@
     .item-blog__image {
         width: 212px;
     }
+    .slider-photos__image {
+        height: 420px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -507,6 +510,9 @@
     }
     .page-educational-center .text-page {
         padding-bottom: 20px;
+    }
+    .slider-photos__image {
+        height: 370px;
     }
 }
 
@@ -1029,6 +1035,9 @@
     }
     .wrapper_page .header.active {
         background: #fff;
+    }
+    .slider-photos__image {
+        height: 312px;
     }
 }
 

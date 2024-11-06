@@ -1137,6 +1137,7 @@ form {
 	display: none;
 }
 .slider-photos__image {
+	height: 472px;
 	border-radius: 30px;
 	width: 100%;
 	position: relative;
