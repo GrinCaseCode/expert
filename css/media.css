@@ -876,12 +876,12 @@
     .slider-documents .slick-prev, 
     .slider-services .slick-prev, 
     .slider-team .slick-prev {
-        left: -8px;
+        left: -6px;
     }
     .slider-documents .slick-next, 
     .slider-services .slick-next, 
     .slider-team .slick-next {
-        right: -8px;
+        right: -6px;
     }
     .page-services {
         padding-top: 60px;
