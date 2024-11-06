@@ -125,11 +125,125 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			]
 		});
 
+		$('.slider-wrapper').each(function() {
+			var $sliderWrapper = $(this);
+			var $slider = $sliderWrapper.find('.slider-photos');
+			var $progressBar = $sliderWrapper.find('.progressbar-slider__value');
+			
+			// Инициализация слайдера
+			$slider.slick({
+				arrows: false,
+				dots: false,
+				infinite: true,
+				touchThreshold: 1000,
+				slidesToShow: 1,
+				slidesToScroll: 1
+			});
+	
+			// Обновление прогресс-бара при смене слайда
+			$slider.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+				var calc = ((nextSlide + 1) / slick.slideCount) * 100;
+				$progressBar.css('width', calc + '%');
+			});
+	
+			// Установка начального значения прогресс-бара
+			var initialCalc = (1 / $slider.slick('getSlick').slideCount) * 100;
+			$progressBar.css('width', initialCalc + '%');
+		});
+
+		$('.slider-team').slick({
+			arrows: true,
+			dots: false,
+			infinite: true,
+			touchThreshold: 1000,
+			slidesToShow: 4,
+			slidesToScroll: 1,
+			prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+			nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+			responsive: [
+				{
+					breakpoint: 1200,
+					settings: {
+						slidesToShow: 3,
+					}
+				},
+				{
+					breakpoint: 992,
+					settings: {
+						slidesToShow: 2,
+					}
+				},
+				{
+					breakpoint: 768,
+					settings: {
+						slidesToShow: 1,
+					}
+				}
+				]
+			});
+
+			$('.slider-services').slick({
+				arrows: true,
+				dots: false,
+				infinite: true,
+				touchThreshold: 1000,
+				slidesToShow: 3,
+				slidesToScroll: 1,
+				prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+				nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+				responsive: [
+					{
+						breakpoint: 1200,
+						settings: {
+							slidesToShow: 2,
+						}
+					},
+					{
+						breakpoint: 768,
+						settings: {
+							slidesToShow: 1,
+						}
+					}
+					]
+				});
+
+				$('.slider-documents').slick({
+					arrows: true,
+					dots: false,
+					infinite: true,
+					touchThreshold: 1000,
+					slidesToShow: 4,
+					slidesToScroll: 1,
+					prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+					nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+					responsive: [
+						{
+							breakpoint: 1200,
+							settings: {
+								slidesToShow: 3,
+							}
+						},
+						{
+							breakpoint: 992,
+							settings: {
+								slidesToShow: 2,
+							}
+						},
+						{
+							breakpoint: 768,
+							settings: {
+								slidesToShow: 1,
+							}
+						}
+						]
+					});
+
 		jQuery('.tabs-wrap').each(function() {
 			var currentTab = $(this);
 			var initalTextTab = currentTab.find(".active a").html();
 			currentTab.find(".btn-tab").html(initalTextTab);
 	}); 
+	
 	$('.btn-tab').click(function() {
 		$(this).toggleClass("active");
 		$(this).siblings(".tabs-page").slideToggle(200);
