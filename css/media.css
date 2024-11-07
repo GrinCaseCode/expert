@@ -1160,6 +1160,9 @@
         font-size: 19px;
         max-width: 324px;
     }
+    .fancybox-slide--html {
+        padding: 15px;
+    }
 }
 
 /* Small Devices, Tablets */
