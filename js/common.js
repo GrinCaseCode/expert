@@ -238,6 +238,21 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 						]
 					});
 
+					$('.slider-about').slick({
+						arrows: false,
+						dots: false,
+						infinite: true,
+						touchThreshold: 1000,
+						variableWidth: true,
+						centerMode: true,
+						autoplay: true,
+						autoplaySpeed: 4000,
+						slidesToShow: 4,
+						slidesToScroll: 1,
+						prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+						nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+						});
+
 		jQuery('.tabs-wrap').each(function() {
 			var currentTab = $(this);
 			var initalTextTab = currentTab.find(".active a").html();
