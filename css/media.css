@@ -16,12 +16,12 @@
     }
     .header__location {
         max-width: 131px;
-    }    
+    }     
     .header__wrapper .btn-main {
         height: 45px;
         padding: 0 25px;
         font-size: 13px;
-    }
+    } 
     .menu > li > a {
         gap: 4px;
     }
@@ -58,7 +58,7 @@
         padding: 18px 0;
     }
     .billbord__image img {
-        width: 480px;
+        width: 310px;
     }
     .billbord {
         min-height: 604px;
@@ -293,7 +293,7 @@
         padding-bottom: 42px;
     }
     .section-content {
-        padding: 90px 65px;
+        padding: 70px;
     }
     .text-page {
         font-size: 16px;
@@ -361,6 +361,168 @@
     .text-privacy {
         font-size: 17px;
     }
+    .section-content .head-section {
+        margin-bottom: 53px;
+    }
+    .consultation {
+        padding: 100px 0;
+    }
+    .services-safety + .consultation {
+        padding-top: 65px;
+    }
+    .item-marquee {
+        font-size: 18px;
+    }
+    .head-page .text-page {
+        max-width: 685px;
+    }
+    .head-page {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+    .billbord_documentation .billbord__image img {
+        width: 480px;
+    }
+    .section-service {
+        padding: 100px 0;
+    }
+    .section-service .row > div {
+        padding: 0 15px;
+    }
+    .section-service .row {
+        margin: 0 -15px;
+    }
+    .section-service .descr-small {
+        margin-bottom: 19px;
+    }
+    .section-service ul {
+        margin-top: 17px;
+    }
+    .descr-small {
+        font-size: 13px;
+    }
+    .section-service li {
+        padding-left: 30px;
+    }
+    .section-service li img {
+        width: 20px;
+    }
+    .section-service .btn-main {
+        margin-top: 10px;
+    }
+    .item-box {
+        padding: 26px;
+        font-size: 16px;
+        gap: 25px;
+    }
+    .wrap-section {
+        padding: 0 40px;
+    }
+    .additional-services {
+        padding-bottom: 100px;
+    }
+    .billbord_group .billbord__image img {
+        width: 606px;
+    }
+    .unit-location {
+        min-height: 225px;
+        padding: 30px;
+        font-size: 16px;
+    }
+    .section-service p + .btn-main {
+        margin-top: 20px;
+    }
+    .steps_history .item-step {
+        font-size: 15px;
+    }
+    .billbord_contacts .billbord__image img {
+        width: 546px;
+        margin-left: -78px;
+    }
+    .unit-contacts {
+        padding: 26px;
+        gap: 22px;
+    }
+    .list-contacts__value {
+        font-size: 15px;
+    }
+    .list-contacts li:after {
+        margin: 0 20px;
+    }
+    .list-contacts.list-contacts_main li:after {
+        margin: 0 7px;
+    }
+    .menu ul {
+        padding: 26px;
+        width: 683px;
+        columns: initial;
+    }
+    .menu__haschild > a::after {
+        margin-right: 10px;
+    }
+    .menu ul li {
+        margin-bottom: 15px;
+    }
+    .menu ul {
+        padding: 20px;
+    }
+    .slider-documents {
+        margin: 0;
+    }
+    .section-service_education {
+        padding-bottom: 86px;
+    }
+    .section-service_education p {
+        margin-bottom: 20px;
+    }
+    .slider-gallery__item, .unit-team__image {
+        height: 330px;
+    }
+    .management__wrap {
+        max-width: 910px;
+    }
+    .descr-text {
+        font-size: 13px;
+    }
+    .item-box__text {
+        font-size: 14px;
+    }
+    .slider-teachers .slick-arrow {
+        top: 145px;
+    }
+
+
+    .billbord_cases .billbord__image img {
+        width: 593px;
+    }
+    .page-news,
+    .page-cases {
+        padding: 90px 0;
+    }
+    .page-news .head-section,
+    .page-cases .head-section {
+        margin-bottom: 40px;
+    }
+    .item-case__content {
+        padding: 24px;
+    }
+    .item-case__title {
+        font-size: 16px;
+    }
+    .item-case__image {
+        height: 270px;
+    }
+    .row.row_page > div {
+        padding: 0 8px;
+        margin-bottom: 40px;
+    }
+    .row.row_page {
+        margin: 0 -8px;
+        margin-bottom: -40px;
+    }
+    .billbord_news .billbord__image img {
+        width: 305px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -384,7 +546,7 @@
         font-size: 13px;
     }
     .billbord__image img {
-        width: 400px;
+        width: 270px;
     }
     .billbord {
         min-height: 520px;
@@ -517,7 +679,7 @@
         max-width: 930px;
     }
     .section-content {
-        padding: 70px 40px;
+        padding: 40px;
     }
     .row.row_documents > div {
         margin-bottom: 30px;
@@ -560,6 +722,112 @@
     .title-error {
         margin-bottom: 37px;
         font-size: 25px;
+    }
+    .item-marquee {
+        font-size: 16px;
+    }
+    .head-page {
+        padding-top: 75px;
+        padding-bottom: 50px;
+    }
+    .section-content .head-section {
+        margin-bottom: 30px;
+    }
+    .consultation__form {
+        max-width: 323px;
+    }
+    .consultation .head-section {
+        margin-bottom: 38px;
+    }
+    .billbord_documentation .billbord__image img {
+        width: 393px;
+    }
+    .section-service .head-section {
+        margin-bottom: 30px;
+    }
+    .wrap-section {
+        padding: 0;
+    }
+    .steps_history .item-step {
+        font-size: 14px;
+    }
+    .item-step__value {
+        font-size: 28px;
+    }
+    .unit-location {
+        min-height: 210px;
+        padding: 25px;
+        font-size: 14px;
+    }
+    .unit-location,
+    .unit-location__overlay,
+    .unit-location__image,
+    .unit-location__overlay img,
+    .unit-location__image img {
+        border-radius: 25px;
+    }
+    .locations-units {
+        padding-top: 60px;
+    }
+    .billbord_contacts .billbord__image img {
+        width: 444px;
+    }
+    .section-contacts {
+        padding: 90px 0;
+    }
+    .tabs a {
+        height: 65px;
+        padding: 0 29px;
+        gap: 12px;
+        font-size: 16px;
+    }
+    .tabs img {
+        max-width: 30px;
+        max-height: 30px;
+    }
+    .tabs {
+        margin-bottom: 45px;
+        gap: 13px;
+    }
+    .structure-management .head-section, .price-list .head-section, .programs .head-section {
+        margin-bottom: 40px;
+    }
+    .section-service_page p {
+        margin-bottom: 15px;
+    }
+    .documents .section-content .head-section {
+        margin-bottom: 40px;
+    }
+    .slider-documents {
+        margin: 0 30px;
+    }
+    .section-service p + .btn-main {
+        margin-top: 15px;
+    }
+    .slider-gallery__item, .unit-team__image {
+        height: 280px;
+    }
+    .slider-teachers, .slider-gallery {
+        padding: 0 50px;
+    }
+    .item-box__text {
+        font-size: 12px;
+    }
+    .slider-teachers .slick-arrow {
+        top: 135px;
+    }
+
+    .billbord_cases .billbord__image img {
+        width: 480px;
+    }
+    .item-case__title {
+        font-size: 14px;
+    }
+    .item-case__content {
+        padding: 16px;
+    }
+    .item-case__image {
+        height: 215px;
     }
 }
 
@@ -1162,6 +1430,194 @@
     }
     .fancybox-slide--html {
         padding: 15px;
+    }
+    .item-marquee {
+        font-size: 14px;
+    }
+    .head-page__logo img {
+        margin-bottom: 20px;
+    }
+    .head-page {
+        padding-top: 55px;
+        padding-bottom: 38px;
+    }
+    .section-content::before,
+    .section-content {
+        border-radius: 40px;
+    }
+    .consultation__image::after,
+    .consultation__image img {
+        border-radius: 30px 30px 0 0;
+    }
+    .consultation__image {
+        margin-bottom: 20px;
+    }
+    .consultation__form {
+        padding: 20px;
+        padding-bottom: 30px;
+        max-width: 100%;
+    }
+    .consultation {
+        padding: 50px 0;
+    }
+    .breadcrumbs {
+        display: block;
+    }
+    .breadcrumbs li {
+        display: inline;
+    }
+    .section-service {
+        padding: 60px 0;
+    }
+    .section-service__image {
+        margin-bottom: 20px;
+    }
+    .advantages .head-section {
+        margin-bottom: 33px;
+    }
+    .additional-services {
+        padding-bottom: 40px;
+    }
+    .locations-units .row.row_main > div {
+        padding: 0 5px;
+        margin-bottom: 10px;
+    }
+    .locations-units .row.row_main {
+        margin: 0 -5px;
+        margin-bottom: -10px;
+    }
+    .unit-location {
+        min-height: 185px;
+        padding: 20px;
+        font-size: 13px;
+    }
+    .unit-location, 
+    .unit-location__overlay, 
+    .unit-location__image, 
+    .unit-location__overlay img, 
+    .unit-location__image img {
+        border-radius: 20px;
+    }
+    .locations-units {
+        padding-top: 40px;
+    }
+    .steps_history .item-step {
+        font-size: 11px;
+    }
+    .item-step__value {
+        font-size: 25px;
+    }
+    .steps .head-section {
+        margin-bottom: 32px;
+    }
+    .section-contacts {
+        padding: 50px 0;
+    }
+    .list-contacts li {
+        display: block;
+    }
+    .list-contacts li:after {
+        display: none;
+    }
+    .list-contacts {
+        gap: 15px;
+        flex-direction: column;
+    }
+    .list-contacts__item {
+        display: inline-block;
+    }
+    .unit-contacts {
+        padding: 20px;
+    }
+    .programs {
+        padding: 70px 0;
+    }
+    .tabs {
+        flex-wrap: wrap;
+    }
+    .programs__image {
+        margin-bottom: 25px;
+    }
+    .programs__image img,
+    .programs__image::after {
+        border-radius: 20px;
+    }
+    .info-programs {
+        margin-bottom: 30px;
+    }
+    .table-main table th, .table-main table td {
+        padding: 13px 10px;
+    }
+    .section-content .slider-documents {
+        margin: 0;
+    }
+    .item-document {
+        padding: 25px;
+    }
+    .section-service .row > div:last-child .section-service__image {
+        margin-top: 25px;
+    }
+    .documents + .section-service {
+        padding-top: 30px;
+    }
+    .management {
+        padding-bottom: 25px;
+    }
+    .structure-management .head-section, .price-list .head-section, .programs .head-section {
+        margin-bottom: 30px;
+    }
+    .slider-teachers, .slider-gallery {
+        padding: 0 40px;
+    }
+    .section-teachers, .section-reference, .section-gallery {
+        padding-bottom: 50px;
+    }
+    .section-teachers .head-section, .section-reference .head-section, .section-gallery .head-section {
+        margin-bottom: 30px;
+    }
+    .consultation_reverse .title-section br {
+        display: none;
+    }
+    .slider-teachers .slick-arrow {
+        top: 125px;
+    }
+
+    .page-news,
+    .page-cases {
+        padding: 60px 0;
+    }
+    .item-case {
+        border-radius: 22px;
+        display: block;
+    }
+    .item-case__image,
+    .item-case__image img,
+    .item-case__image::before,
+    .item-case__image::after {
+        border-radius: 22px 22px 0 0;
+    }
+    .item-case .btn-main {
+        margin-top: 20px;
+    }
+    .item-case__title {
+        font-size: 16px;
+    }
+    .item-case__content {
+        padding: 20px;
+    }
+    .item-case__image {
+        height: 280px;
+        width: 100%;
+    }
+    .row.row_page > div {
+        margin-bottom: 25px;
+    }
+    .row.row_page {
+        margin-bottom: -25px;
+    }
+    .page-news .head-section, 
+    .page-cases .head-section {
+        margin-bottom: 32px;
     }
 }
 
